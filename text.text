@@ -1,0 +1,8 @@
+https://maxwellmuhendislik.com.tr/wp-content/uploads/2021/07/is_anlayisi_2_750x1103.jpg
+ $primary-color-bold:#5e4705;
+
+ @media screen and (max-width: 600px) {
+    
+  }
+
+  ${detailServiceActive ? 'detail-service-active' : 'detail-service-pasif'}

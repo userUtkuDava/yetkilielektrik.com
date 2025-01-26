@@ -1,0 +1,41 @@
+@import './first.scss';
+.whatsapp-info-container{
+    position: sticky;
+    top:0 !important;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+      height: 50px;
+      background: linear-gradient(135deg, #998d69, #b5a36d, #6f5e3e);
+      display: flex;
+      align-items: center;
+      i{
+        transition: all 0.5s;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+    
+      }
+      a{
+        margin-left: 20px;
+        font-size: 18px;
+        color: rgb(255, 255, 255) !important;
+        &:hover{
+            color: rgb(177, 177, 177) !important;
+        }
+         &:hover i{
+            color: rgb(177, 177, 177) !important;
+         }
+      }
+       #special-icon-head{
+        margin-left: 10px;
+        border-left: solid 1px whitesmoke;
+        padding: 5px;
+        padding-left: 10px;
+           
+      }
+}
+@media screen and (max-width: 1024px) {
+    .whatsapp-info-container a{
+        font-size: 14px;
+    }
+}
